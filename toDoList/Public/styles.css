@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ee1b6c;
+    font-family: "Poppins";
+    color: #000;
+}
+
+.container {
+    background-color: #fff;
+    width: 50%;
+    max-width: 450px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.481);
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2.7rem;
+}
+
+.title p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #b8b8b8;
+}
+
+.items {
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 25px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b8b8b838;
+}
+
+.item:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-right: 10px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    color: #b8b8b8;
+    width: 22px;
+    height: 22px;
+    border: 0.5px solid #ee1b6c;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+
+    display: grid;
+    place-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    background-color: #ee1b6c;
+
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+input[type="text"] {
+    border: none;
+    width: 80%;
+    min-width: 100px;
+    height: 40px;
+    padding-left: 7px;
+    font-family: "Poppins";
+    color: #ee1b6cb9;
+    font-size: 17px;
+}
+
+input[type="text"]::placeholder {
+    color: #b8b8b8d1;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-bottom: 1px solid #ee1b6c8a;
+}
+
+button {
+    min-height: 45px;
+    width: 45px;
+    background-color: #ee1b6c;
+    color: #fff;
+    border-radius: 50%;
+    border-color: transparent;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 300;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #000;
+}

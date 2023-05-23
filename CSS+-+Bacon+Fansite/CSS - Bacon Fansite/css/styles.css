@@ -1,0 +1,47 @@
+/*-----------TAG SELECTORS------------*/
+
+body{
+    
+    background-color: #dbdbdb;
+    text-align: center;
+}
+h1{
+    color: #845aa6;
+    font-size: 150px;
+}
+
+img{
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/*-----------CLASS SELECTORS------------*/
+/* We use classes when we want to aplly the same style to a different type of elements*/
+
+.cupcake{
+    background-color: #c8b3d8;
+}
+
+.cake{
+    background-color: #d6adc2;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+/*-----------PSEUDOCLASSES SELECTORS------------*/
+/* The elements in HTML can have different states */
+
+img:hover{
+    background-color: #bdbdbd;
+}
+
+/*-----------ID SELECTORS------------*/
+/* We use IDs just for one element in the whole page */
+/*The most prevalence*/
+
+#title{
+    color: #000
+}

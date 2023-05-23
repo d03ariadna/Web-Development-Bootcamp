@@ -1,0 +1,222 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 900;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+h3{
+    font-size: 1.7rem;
+}
+
+.arrow{
+    position: fixed;
+    display: inline-block;
+    bottom: 50px;
+    right: 5%;
+    padding: 8px 12px;
+    border-radius: 100%;
+    color: #fff;
+    background-color: #00000020;
+}
+/* SECTIONS*/
+
+.col-sec{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-sec{
+    background-color: #fff;
+    color: #000;
+}
+
+.big-heading{
+    font-size: 4rem;  
+    line-height: 1.5;  
+}
+
+#title {
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 5% 15% 7%;
+}
+
+/* NAVBAR */
+
+.navbar{
+    padding-bottom: 7%;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.nav-item{
+    padding: 0 30px;
+    
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+
+.down{
+    margin: 5% 3% 5% 0;
+}
+
+
+.dog-img{
+    width: 20%;
+    right: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+/* FEATURES */
+
+#features{
+    padding: 5% 15% 7%;
+    position: relative;
+}
+
+
+
+
+.feature-box p{
+    color: #8f8f8f;
+    padding: 0 10%;
+}
+
+.feature-box i{
+    color: #ef8172;
+    margin: 5% 0;
+}
+
+.feature-box i:hover{
+    color: #ff4c68;
+}
+
+
+/* TESTIMONIAL */
+#testimonials{
+    background-color: #ef8172;
+}
+ .testimonial-img{
+     width: 15%;
+     margin: 20px;
+     border-radius: 100%;
+ }
+
+ .carousel-item{
+    padding: 6% 20%;
+ }
+
+
+ #press{
+     padding: 0 5% 3%;
+     background-color: #ef8172;
+ }
+
+ .press-img{
+    width: 12%;
+    margin: 20px;
+ }
+
+ #pricing{
+     padding: 5% 15% 7%;
+ }
+
+.card{
+    height: 100%;
+}
+
+.pricing-title{
+     font-family: 'Poppins';
+     font-weight: 800;
+     font-size: 3rem;
+     
+ }
+ 
+.btn-card{
+    border: none;
+    background-color: #ff4c68;
+}
+
+.btn-card:hover{
+    background-color: #000;
+}
+
+.btn-card-2{
+    border-color: #ff4c68;
+    color: #ff4c68;
+}
+
+.btn-card-2:hover{
+    background-color: #000;
+}
+
+ .mo{
+     font-size: 1.5rem;
+ }
+
+
+ #cta{
+     padding: 8% 15%;
+ }
+
+
+ #cta button{
+     margin: 5% 2% 3%;
+ }
+
+ #footer{
+     padding: 7% 0 2%;
+ }
+
+#footer i{
+    margin: 20px 5px ;
+    font-size: 20px;
+} 
+
+#footer p{
+    color: #8f8f8f;
+    font-size: .8rem;
+}
+
+
+ /*  RESPONSIVNESS  */
+
+
+ @media  (max-width: 990px) {
+     #title{
+         text-align: center;
+     }
+
+     .row h1{
+         font-size: 3.5rem;
+     }
+
+     .dog-img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+     }
+
+ }

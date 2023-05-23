@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(270deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.body {
+    display: flex;
+    height: 100vh;
+    /* background-color: #000; */
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    height: 75vh;
+    display: flex;
+    margin: auto;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0000002c;
+    border-radius: 50px;
+}
+
+.city {
+    font-family: "Montserrat";
+    color: #fff;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 20px 0 30px;
+
+}
+
+form {
+    display: block;
+    margin: 10px auto;
+}
+
+img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.temp {
+    font-family: "Quicksand";
+    font-weight: 100;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.desc {
+    width: 80%;
+    text-align: center;
+    font-family: "Quicksand";
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ffffff7c;
+}
+
+form {
+    display: block;
+    margin: 60px 0 0;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    font-family: "Montserrat";
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #f2f2f200;
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.482);
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.392);
+}
+
+button {
+    width: 50px;
+    height: 35px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: #ffffff00;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    color: crimson;
+}
+
+/*  RESPONSIVNESS  */
+
+
+@media (max-height: 580px) {
+
+    .city {
+        margin: 6%;
+        margin-right: 0;
+
+    }
+
+    img {
+        width: 30%;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+
+    .temp {
+        margin-left: 100px;
+        width: 40%;
+    }
+
+    .desc {
+        width: 40%;
+        margin-right: 30px;
+
+    }
+}
